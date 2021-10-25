@@ -20,8 +20,10 @@ h1 {
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 20px;
   opacity: 0.7;
+  font-weight: 500;
+  line-height: 2;
 }
 
 a {
@@ -40,20 +42,11 @@ footer {
   text-align: center;
   font-size: 12px;
   background-color: var(--background-colour);
-
   color: white;
 }
 
 .navbar-green {
   background-color: #6e8e7d;
-}
-
-.navbar-brand,
-.nav-link {
-  font-weight: 300;
-}
-.nav-bar:hover {
-  color: blue;
 }
 
 img {
@@ -62,16 +55,26 @@ img {
   height: 400px;
 }
 
-.chat-link {
-  padding: 10px;
-  border: 1px solid black;
-  width: 120px;
-  display: block;
+.hero {
+  text-align: center;
+  padding: 160px 20px;
 }
+
 .fa-linkedin,
 .fa-instagram,
 .fa-envelope {
   font-size: 25px;
   margin: 0 5px;
-  padding: 20px;
+  padding: 10px;
+}
+
+.btn-branding {
+  padding: 15px 30px;
+  background-color: #6e8e7d;
+  border-radius: 4px;
+  color: white;
+  font-size: 16px;
+  line-height: 27px;
+  text-align: center;
+  font-weight: 300;
 }
