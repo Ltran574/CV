@@ -1,0 +1,78 @@
+:root {
+  --primary-colour: #1c0c5b;
+  --secondary-colour: #c996cc;
+  --border-colour: #916bbf;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+  color: var(--primary-colour);
+  margin: 0 auto;
+  padding: 5px;
+}
+h1 {
+  font-size: 90px;
+}
+
+h2 {
+  font-size: 48px;
+}
+h3 {
+  font-size: 24px;
+  opacity: 0.7;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.nav-bar a {
+  margin: 20px;
+}
+
+.nav-bar:hover {
+  color: blue;
+}
+
+.about-me,
+.contact-me,
+.project {
+  color: var(secondary-colour);
+  text-decoration: none;
+}
+
+.homepage-link,
+.email-link {
+  text-align: center;
+  display: block;
+  color: var(--primary-colour);
+  text-decoration: none;
+}
+
+.email-link:hover {
+  text-decoration: underline;
+}
+
+.homepage-link {
+  margin: 0 auto;
+  padding: 10px;
+}
+
+img {
+  display: block;
+  width: 400px;
+  height: 400px;
+}
