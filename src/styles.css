@@ -114,6 +114,8 @@ footer .git-link {
 
 footer .contact-box {
   padding: 30px 120px;
+
+  margin: 30px;
 }
 
 footer .contact-box p {
@@ -174,12 +176,10 @@ footer .contact-box p {
   }
 }
 
-#contact {
-  text-align: center;
-}
-
 .content-container {
   padding: 160px 20px;
+  background-color: var(--secondary-background-colour);
+  text-align: center;
 }
 
 .content h1 {
@@ -202,4 +202,16 @@ footer .contact-box p {
 .content p {
   font-size: 14px;
   margin: 0;
+}
+
+.content a {
+  color: black;
+}
+
+.content a:hover {
+  color: var(--background-colour);
+}
+
+.content-logos {
+  max-height: 20px;
 }
