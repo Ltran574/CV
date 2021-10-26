@@ -9,12 +9,6 @@ body {
 }
 
 h1 {
-  text-align: center;
-  color: var(--primary-colour);
-  margin: 0 auto;
-  padding: 5px;
-}
-h1 {
   font-size: 90px;
 }
 
@@ -147,7 +141,7 @@ footer .contact-box p {
   padding: 10px 60px;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 576px) {
   .project-description {
     padding: 0;
     text-align: center;
@@ -174,12 +168,22 @@ footer .contact-box p {
   h4 {
     font-size: 18px;
   }
+
+  .btn-branding {
+    display: block;
+    text-align: center;
+  }
 }
 
 .content-container {
   padding: 160px 20px;
   background-color: var(--secondary-background-colour);
   text-align: center;
+}
+
+.about-container {
+  padding: 160px 20px;
+  background-color: var(--secondary-background-colour);
 }
 
 .content h1 {
