@@ -163,6 +163,7 @@ footer .contact-box p {
   padding: 60px 20px;
   background-color: var(--secondary-background-colour);
   text-align: center;
+  margin: 50px;
 }
 .logo-container,
 .about-container {
