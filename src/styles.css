@@ -61,7 +61,8 @@ nav li.active a {
 
 #profile-pic {
   display: block;
-  max-width: 480px;
+  max-width: 400px;
+  max-height: 500px;
 }
 
 .navbar-green {
@@ -165,7 +166,7 @@ footer .contact-box p {
 }
 .logo-container,
 .about-container {
-  padding: 60px 20px;
+  padding: 40px 20px;
   background-color: var(--secondary-background-colour);
   margin: 50px;
 }
@@ -173,10 +174,6 @@ footer .contact-box p {
 .work-container {
   padding: 60px 20px;
   margin: 50px;
-}
-
-.logo-container img {
-  max-height: 80px;
 }
 
 .content h1 {
@@ -193,7 +190,7 @@ footer .contact-box p {
   line-height: 1.5;
 }
 .content {
-  margin: 30px;
+  margin-left: 50px;
 }
 .content li,
 .content p {
