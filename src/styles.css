@@ -1,7 +1,6 @@
 :root {
-  --primary-colour: black;
-  --background-colour: #6e8e7d;
-  --secondary-background-colour: #faf6f1;
+  --primary-colour: #6e8e7d;
+  --secondary-colour: #faf6f1;
 }
 
 body {
@@ -56,13 +55,7 @@ nav a {
 
 nav a:hover,
 nav li.active a {
-  color: var(--background-colour);
-}
-
-#profile-pic {
-  display: block;
-  max-width: 400px;
-  max-height: 500px;
+  color: var(--primary-colour);
 }
 
 .navbar-green {
@@ -73,7 +66,7 @@ footer .social-links a {
   margin: 0 20px;
   padding: 10px 14px;
   border-radius: 50%;
-  color: #6e8e7d;
+  color: var(--primary-colour);
   transition: all 150ms ease-in-out;
   font-size: 20px;
 }
@@ -83,7 +76,7 @@ footer .social-links a:hover {
   padding: 10px 14px;
   color: white;
   font-size: 20px;
-  background-color: #6e8e7d;
+  background-color: var(--primary-colour);
 }
 
 footer .git-link {
@@ -92,17 +85,25 @@ footer .git-link {
 
 footer .contact-box {
   padding: 30px 120px;
-
-  margin: 30px;
+  margin: 50px;
 }
 
 footer .contact-box p {
   margin: 0;
 }
 
+footer a {
+  color: black;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: var(--primary-colour);
+  text-decoration: none;
+}
 .btn-branding {
   padding: 15px 30px;
-  background-color: #6e8e7d;
+  background-color: var(--primary-colour);
   border-radius: 4px;
   color: white;
   font-size: 16px;
@@ -113,30 +114,24 @@ footer .contact-box p {
 
 .btn-outline {
   padding: 15px 30px;
-  border: 1px solid #6e8e7d;
+  border: 1px solid var(--primary-colour);
   border-radius: 4px;
-  color: #6e8e7d;
+  color: var(--primary-colour);
   font-size: 16px;
   line-height: 27px;
   text-align: center;
   font-weight: 300;
 }
-.project-description {
-  padding: 10px 60px;
-}
 
 @media (max-width: 576px) {
-  .project-description {
-    padding: 0;
-    text-align: center;
-  }
   h1 {
-    font-size: 65px;
+    font-size: 55px;
   }
   h2 {
     font-size: 44px;
   }
-  .content-container {
+  .content-container,
+  .work-container {
     text-align: center;
     padding: 0;
   }
@@ -161,14 +156,7 @@ footer .contact-box p {
 
 .content-container {
   padding: 60px 20px;
-  background-color: var(--secondary-background-colour);
-  text-align: center;
-  margin: 50px;
-}
-.logo-container,
-.about-container {
-  padding: 40px 20px;
-  background-color: var(--secondary-background-colour);
+  background-color: var(--secondary-colour);
   margin: 50px;
 }
 
@@ -178,12 +166,13 @@ footer .contact-box p {
 }
 
 .content h1 {
-  font-size: 46px;
+  font-size: 40px;
   line-height: 80px;
 }
 
 .content h2 {
-  font-size: 18px;
+  font-size: 16px;
+  line-height: 1.5;
 }
 
 .content h3 {
@@ -204,11 +193,25 @@ footer .contact-box p {
 }
 
 .content a:hover {
-  color: var(--background-colour);
+  color: var(--primary-colour);
 }
 
-.content li a {
-  font-size: 14px;
-  margin: 0;
-  text-decoration: underline;
+#profile-pic {
+  display: block;
+  max-width: 400px;
+  max-height: 500px;
+}
+
+.content li {
+  display: inline;
+  list-style: none;
+  margin-left: 15px;
+  padding: 10px 14px;
+  color: white;
+  border-radius: 4px;
+  background-color: var(--primary-colour);
+}
+
+.content ul {
+  padding: 0;
 }
