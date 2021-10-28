@@ -28,7 +28,7 @@ a {
   text-decoration: none;
 }
 p {
-  font-size: 16px;
+  font-size: 14px;
   line-height: 30px;
 }
 footer {
@@ -186,7 +186,7 @@ footer a:hover {
   line-height: 1.5;
 }
 .content {
-  margin: 30px;
+  margin: 20px;
 }
 .content li,
 .content p {
@@ -205,6 +205,12 @@ footer a:hover {
 #profile-pic {
   display: block;
   max-height: 500px;
+  max-width: 500px;
+}
+
+#weather-pic {
+  display: block;
+  max-width: 500px;
 }
 
 .content li {
