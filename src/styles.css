@@ -125,14 +125,15 @@ footer a:hover {
 }
 
 @media (max-width: 576px) {
-  h1 {
-    font-size: 44px;
+  .content h1 {
+    font-size: 10px;
   }
   h2 {
-    font-size: 44px;
+    font-size: 28px;
   }
   .content-container,
-  .work-container {
+  .work-container,
+  .content {
     text-align: center;
     padding: 0;
   }
@@ -150,6 +151,10 @@ footer a:hover {
   }
 
   .btn-branding {
+    display: block;
+    text-align: center;
+  }
+  img {
     display: block;
     text-align: center;
   }
@@ -181,7 +186,7 @@ footer a:hover {
   line-height: 1.5;
 }
 .content {
-  margin-left: 50px;
+  margin: 30px;
 }
 .content li,
 .content p {
@@ -222,4 +227,9 @@ footer a:hover {
   padding: 7px 13px;
   margin-right: 13px;
   margin-bottom: 13px;
+}
+
+.self-skills {
+  padding: 60px 20px;
+  margin: 50px;
 }
