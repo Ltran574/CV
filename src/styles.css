@@ -84,7 +84,8 @@ footer .git-link {
 }
 
 footer .contact-box {
-  padding: 30px 120px;
+  padding: 60px 60px;
+  background-color: var(--secondary-colour);
   margin: 50px;
 }
 
@@ -125,7 +126,7 @@ footer a:hover {
 
 @media (max-width: 576px) {
   h1 {
-    font-size: 55px;
+    font-size: 44px;
   }
   h2 {
     font-size: 44px;
@@ -166,8 +167,8 @@ footer a:hover {
 }
 
 .content h1 {
-  font-size: 40px;
-  line-height: 80px;
+  font-size: 45px;
+  line-height: 70px;
 }
 
 .content h2 {
@@ -198,7 +199,6 @@ footer a:hover {
 
 #profile-pic {
   display: block;
-  max-width: 400px;
   max-height: 500px;
 }
 
@@ -214,4 +214,12 @@ footer a:hover {
 
 .content ul {
   padding: 0;
+}
+
+.skill {
+  line-height: 20px;
+  letter-spacing: 0.21px;
+  padding: 7px 13px;
+  margin-right: 13px;
+  margin-bottom: 13px;
 }
