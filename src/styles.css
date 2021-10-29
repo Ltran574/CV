@@ -28,7 +28,7 @@ a {
   text-decoration: none;
 }
 p {
-  font-size: 14px;
+  font-size: 18px;
   line-height: 30px;
 }
 footer {
@@ -84,13 +84,9 @@ footer .git-link {
 }
 
 footer .contact-box {
-  padding: 60px 60px;
-  background-color: var(--secondary-colour);
-  margin: 50px;
-}
+  padding: 60px 50px;
 
-footer .contact-box p {
-  margin: 0;
+  background-color: var(--secondary-colour);
 }
 
 footer a {
@@ -113,7 +109,7 @@ footer a:hover {
   font-weight: 300;
 }
 
-.btn-outline {
+.btn- {
   padding: 15px 30px;
   border: 1px solid var(--primary-colour);
   border-radius: 4px;
@@ -161,14 +157,12 @@ footer a:hover {
 }
 
 .content-container {
-  padding: 60px 20px;
+  padding: 60px 50px;
   background-color: var(--secondary-colour);
-  margin: 50px;
 }
 
 .work-container {
-  padding: 60px 20px;
-  margin: 50px;
+  padding: 60px 50px;
 }
 
 .content h1 {
@@ -190,7 +184,8 @@ footer a:hover {
 }
 .content li,
 .content p {
-  font-size: 14px;
+  font-size: 18px;
+  line-height: 1.5;
   margin: 0;
 }
 
@@ -216,7 +211,7 @@ footer a:hover {
 .content li {
   display: inline;
   list-style: none;
-  margin-left: 15px;
+  margin-right: 15px;
   padding: 10px 14px;
   color: white;
   border-radius: 4px;
@@ -236,6 +231,5 @@ footer a:hover {
 }
 
 .self-skills {
-  padding: 60px 20px;
-  margin: 50px;
+  padding: 60px 50px;
 }
