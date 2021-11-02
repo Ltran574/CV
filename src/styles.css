@@ -234,3 +234,8 @@ footer a:hover {
 .self-skills {
   padding: 60px 50px;
 }
+
+content .logos {
+  display: inline-block;
+  vertical-align: middle;
+}
