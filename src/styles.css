@@ -235,7 +235,8 @@ footer a:hover {
   padding: 60px 50px;
 }
 
-content .logos {
-  display: inline-block;
-  vertical-align: middle;
+.col-md-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
