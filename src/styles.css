@@ -129,7 +129,8 @@ footer a:hover {
   }
   .content-container,
   .work-container,
-  .content {
+  .content,
+  .container {
     text-align: center;
     padding: 0;
   }
@@ -157,12 +158,12 @@ footer a:hover {
 }
 
 .content-container {
-  padding: 60px 50px;
+  padding: 180px 50px;
   background-color: var(--secondary-colour);
 }
 
 .work-container {
-  padding: 60px 50px;
+  padding: 60px 100px;
 }
 
 .content h1 {
@@ -200,8 +201,7 @@ footer a:hover {
 
 #profile-pic {
   display: block;
-  max-height: 500px;
-  max-width: 500px;
+  max-height: 600px;
 }
 
 #weather-pic {
@@ -239,4 +239,18 @@ footer a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+#about,
+#coding {
+  padding: 60px 50px;
+}
+
+.card-text {
+  font-size: 14px;
+}
+
+.col-lg-4,
+.col-lg-8 {
+  padding: 60px 30px;
 }
