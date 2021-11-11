@@ -1,6 +1,6 @@
 :root {
   --primary-colour: #6e8e7d;
-  --secondary-colour: #faf6f1;
+  --secondary-colour: #faf6f0;
 }
 
 body {
@@ -8,7 +8,10 @@ body {
 }
 
 h1 {
-  font-size: 46px;
+  font-size: 38px;
+  font-weight: 300;
+  line-height: 1.4;
+  font-style: normal;
 }
 
 h2 {
@@ -21,7 +24,7 @@ h3 {
 }
 
 h4 {
-  font-size: 48px;
+  font-size: 30px;
 }
 
 a {
@@ -84,9 +87,7 @@ footer .git-link {
 }
 
 footer .contact-box {
-  padding: 60px 50px;
-
-  background-color: var(--secondary-colour);
+  padding: 60px 80px;
 }
 
 footer a {
@@ -109,20 +110,10 @@ footer a:hover {
   font-weight: 300;
 }
 
-.btn- {
-  padding: 15px 30px;
-  border: 1px solid var(--primary-colour);
-  border-radius: 4px;
-  color: var(--primary-colour);
-  font-size: 16px;
-  line-height: 27px;
-  text-align: center;
-  font-weight: 300;
-}
-
 @media (max-width: 576px) {
-  .content h1 {
-    font-size: 10px;
+  h1 {
+    font-size: 44px;
+    line-height: 1.5;
   }
   h2 {
     font-size: 28px;
@@ -158,12 +149,17 @@ footer a:hover {
 }
 
 .content-container {
-  padding: 180px 50px;
+  padding: 260px 80px;
+  background-color: var(--secondary-colour);
+}
+
+.hero-container {
+  padding: 60px 200px;
   background-color: var(--secondary-colour);
 }
 
 .work-container {
-  padding: 60px 100px;
+  padding: 50px 80px;
 }
 
 .content h1 {
@@ -183,7 +179,7 @@ footer a:hover {
 .content {
   margin: 20px;
 }
-.content li,
+
 .content p {
   font-size: 18px;
   line-height: 33px;
@@ -209,48 +205,25 @@ footer a:hover {
   max-width: 500px;
 }
 
-.content li {
-  display: inline;
-  list-style: none;
-  margin-right: 15px;
-  padding: 10px 14px;
-  color: white;
-  border-radius: 4px;
-  background-color: var(--primary-colour);
-}
-
-.content ul {
-  padding: 0;
-}
-
-.skill {
-  line-height: 20px;
-  letter-spacing: 0.21px;
-  padding: 7px 13px;
-  margin-right: 13px;
-  margin-bottom: 13px;
-}
-
-.self-skills {
-  padding: 60px 50px;
-}
-
-.col-md-3 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 #about,
 #coding {
-  padding: 60px 50px;
+  padding: 60px 80px;
 }
 
 .card-text {
   font-size: 14px;
 }
 
-.col-lg-4,
-.col-lg-8 {
-  padding: 60px 30px;
+.col-lg-4 {
+  padding-bottom: 40px;
+}
+
+.services {
+  list-style: none;
+  line-height: 2;
+}
+
+.service-container {
+  padding: 60px 50px;
+  background-color: var(--secondary-colour);
 }
