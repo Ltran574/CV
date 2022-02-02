@@ -113,11 +113,11 @@ footer a:hover {
 
 @media (max-width: 576px) {
   h1 {
-    font-size: 44px;
-    line-height: 1.5;
+    font-size: medium;
+    line-height: 1.5px;
   }
   h2 {
-    font-size: 28px;
+    font-size: medium;
   }
 
   p {
@@ -126,6 +126,7 @@ footer a:hover {
   .content-container,
   .work-container,
   .content,
+  .hero-container,
   .container,
   #about {
     text-align: center;
