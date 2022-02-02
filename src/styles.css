@@ -119,6 +119,10 @@ footer a:hover {
   h2 {
     font-size: 28px;
   }
+
+  p {
+    font-size: small;
+  }
   .content-container,
   .work-container,
   .content,
