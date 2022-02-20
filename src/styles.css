@@ -253,3 +253,10 @@ footer a:hover {
   padding: 50px 80px;
 }
 
+.about-body {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 20px;
+}
