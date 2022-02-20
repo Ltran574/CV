@@ -202,6 +202,7 @@ footer a:hover {
 
 .content a:hover {
   color: var(--primary-colour);
+  text-decoration: underline;
 }
 
 #profile-pic {
@@ -259,8 +260,4 @@ footer a:hover {
   align-items: flex-start;
   justify-content: center;
   padding: 20px;
-}
-.em-2{
-  margin-top: 20px;
-  margin-bottom: 20px;
 }
