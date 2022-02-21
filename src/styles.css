@@ -112,13 +112,13 @@ footer a:hover {
 }
 
 @media (max-width: 576px) {
-  .hero-container h1 {
-    font-size: small;
+   h1 {
+    font-size: 30px;
     
   }
 
   .content h1 {
-    font-size: small;
+    font-size: 30px;
     
   }
   
