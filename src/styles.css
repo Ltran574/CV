@@ -111,16 +111,13 @@ footer a:hover {
   font-weight: 300;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 425px) {
    h1 {
-    font-size: 30px;
+    font-size: 20px;
     
   }
 
-  .content h1 {
-    font-size: 30px;
-    
-  }
+  
   
   h2 {
     font-size: medium;
@@ -132,7 +129,7 @@ footer a:hover {
   .content-container,
   .work-container,
   .content,
-  .hero-container,
+  
   .container,
   #about {
     text-align: center;
@@ -168,7 +165,7 @@ footer a:hover {
 }
 
 .hero-container {
-  padding: 50px 80px;
+  padding: 60px;
   background-color: var(--secondary-colour);
 }
 
