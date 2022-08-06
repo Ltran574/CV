@@ -1,6 +1,6 @@
 :root {
-  --primary-colour: #6e8e7d;
-  --secondary-colour: #faf6f0;
+  --primary-colour: #7799DC;
+  --secondary-colour: #EF859B;
 }
 
 body {
@@ -8,8 +8,8 @@ body {
 }
 
 h1 {
-  font-size: 38px;
-  font-weight: 300;
+  font-size: 30px;
+  font-weight: 350;
   line-height: 1.4;
   font-style: normal;
 }
@@ -238,8 +238,9 @@ footer a:hover {
 }
 
 .service-container {
-  padding: 60px 50px;
-  background-color: var(--secondary-colour);
+  padding: 40px;
+  background-color:#A9C39C;
+  margin:30px;
 }
 
 .youtube {
